@@ -13,4 +13,11 @@ For model architecture, I tried out the following models in order:
 3. Resnet56 from scratch
 4. Pretrained resnext101 (with randomized fully connected layers)
 
-I implemented different techniques on fine-tuning parameters - such as finding a suitable learning rate and dropout rate, implement data augmentation, cosine annealing and test time augmentation. 
+Some of the techniques I experimented:
+- finding a suitable learning rate by gradually increase the learning rate
+- finding a suitable dropout rate by cross validation
+- freezing layers to speed up training
+- data augmentation
+- cosine annealing on learning rate
+- test time augmentation
+- unfreeze layers and apply discriminative learning rate
