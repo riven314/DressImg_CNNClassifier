@@ -10,7 +10,7 @@ For data, training the full images of 200 classes is way more difficult and comp
 For model architecture, I tried out the following models in order:
 1. Pretrained resnet34 (with randomized fully connected layers)
 2. Pretrained resnext50 (with randomized fully connected layers)
-3. Resnet56 from scratch
+(3. Resnet56 from scratch)
 4. Pretrained resnext101 (with randomized fully connected layers)
 
 Some of the techniques I experimented:
